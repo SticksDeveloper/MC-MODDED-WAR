@@ -1,0 +1,66 @@
+DisplayName = maus 128mm [HE]
+Type = MachineGun1
+
+Power = 122
+
+DamageFactor = player, 1.5
+DamageFactor = helicopter, 1.5
+DamageFactor = plane, 1.5
+DamageFactor = vehicle, 1.0
+DamageFactor = tank, 0.5
+
+Acceleration = 14.09
+
+Explosion = 3
+
+ExplosionInWater = 2
+
+ExplosionBlock = 3
+
+
+Flaming = true
+Sight = None
+
+Group = maus
+
+Delay = 123
+
+ReloadTime = 0
+
+
+SoundVolume = 26.6
+SoundPitch = 1.0
+SoundPitchRandom = 0
+SoundDelay = 0
+
+Sound = 128mm
+Accuracy = 3.82
+
+
+
+HeatCount = 38
+MaxHeatCount = 150
+
+ModelBullet = 128mm
+
+Gravity = -0.02
+GravityInWater = -0.01
+
+AddMuzzleFlash = 5.63, 1.28, 3, 200, 255, 170, 80
+AddMuzzleFlash = 5.37, 0.64, 2, 200, 255, 200, 80
+AddMuzzleFlash = 5.12, 0.43, 1, 200, 255, 255, 255
+
+AddMuzzleFlashSmoke = 5.3, 15, 3.0, 0.4, 51, 220, 60, 55, 50
+AddMuzzleFlashSmoke = 5.5, 26, 5.0, 1.7, 67, 200, 110, 105, 100
+AddMuzzleFlashSmoke = 5.1, 26, 2.0, 0.9, 5, 250, 255, 220, 150
+
+MaxAmmo = 3
+SuppliedNum = 1
+Round = 1
+Item = 1, iron_ingot
+Item = 1, gunpowder
+DisplayMortarDistance = true
+
+
+Recoil = 0.28
+RecoilBufCount = 26, 2

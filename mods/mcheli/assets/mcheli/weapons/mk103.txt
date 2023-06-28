@@ -1,0 +1,25 @@
+DisplayName = MK 103
+Type = MachineGun1
+Power = 35
+Acceleration = 3.5
+Explosion = 1
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 2
+Accuracy = 8.5
+Gravity = -0.03
+Particle = largeexplode
+SoundDelay = 1
+SoundPitch = 0.3
+SoundVolume = 2
+Sound = gun_h2_snd
+
+;Round = 20
+ReloadTime = 100
+MaxHeatCount = 100
+HeatCount = 10
+MaxAmmo = 90
+SuppliedNum = 15
+Item =  3, iron_ingot
+Item =  3, gunpowder

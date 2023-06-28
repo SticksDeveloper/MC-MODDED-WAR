@@ -1,0 +1,294 @@
+;General Information
+
+
+DisplayName = maus
+
+
+AddTexture = maustan
+AddTexture = mauscamo
+
+Sound = tank
+
+SmoothShading = true
+HUD = ww2tank_hud, gunner, gunner, gunner
+
+Category = T.H
+
+Invulnerable = false
+CreativeOnly = false
+
+;Parts
+
+
+
+
+
+
+AddPartWeapon = maus_75_ap / maus_75_he, false, true, false, 0.000, 1.680, -0.005
+AddPartWeaponChild = false, true, 0.000, 2.325, 1.367, 0.70
+AddPartWeapon = maus_128_he / maus_128_ap, false, true, false, 0.000, 1.680, -0.005
+AddPartWeaponChild = false, true, 0.000, 2.325, 1.367
+AddPartWeaponChild = false, true, 0.000, 2.325, 1.367, 1.20
+
+
+
+
+AddPartTurretWeapon = MG34_7.92_mg_a, false, true, true, 1.060, 2.572, 0.001
+AddPartTurretWeapon = MG34_7.92_mg_b, false, true, true, -1.060, 2.572, 0.001
+AddPartTurretWeapon = MG34_7.92_mg_c, false, true, true, -0.000, 2.432, -2.109
+TurretPosition = 0.00, 0.0, -0.00
+
+
+AddPartWeaponBay = maus_128_ap / maus_75_ap / maus_128_he / maus_75_he, -0.000, 1.687, 3.709, 1.00, 0.00, 0.00, -155.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TrackRollerRot = 76.46
+
+AddTrackRoller = 1.486, 0.022, 3.412
+AddTrackRoller = 1.042, 0.022, 3.916
+AddTrackRoller = 1.042, 0.022, 2.899
+AddTrackRoller = 1.042, 0.022, 1.882
+AddTrackRoller = 1.042, 0.022, 0.866
+AddTrackRoller = 1.042, 0.022, -0.151
+AddTrackRoller = 1.042, 0.022, -1.167
+AddTrackRoller = 1.486, 0.022, 2.395
+AddTrackRoller = 1.486, 0.022, 1.379
+AddTrackRoller = 1.486, 0.022, 0.362
+AddTrackRoller = 1.486, 0.022, -0.655
+AddTrackRoller = 1.486, 0.022, -1.671
+AddTrackRoller = -1.042, 0.022, 2.899
+AddTrackRoller = -1.042, 0.022, 3.916
+AddTrackRoller = -1.042, 0.022, 1.882
+AddTrackRoller = -1.042, 0.022, 0.866
+AddTrackRoller = -1.042, 0.022, -0.151
+AddTrackRoller = -1.042, 0.022, -1.167
+AddTrackRoller = -1.486, 0.022, 3.412
+AddTrackRoller = -1.486, 0.022, 2.395
+AddTrackRoller = -1.486, 0.022, 1.379
+AddTrackRoller = -1.486, 0.022, 0.362
+AddTrackRoller = -1.486, 0.022, -0.655
+AddTrackRoller = -1.486, 0.022, -1.671
+AddTrackRoller = 1.216, 0.482, 4.791
+AddTrackRoller = 1.159, 0.425, -2.378
+AddTrackRoller = -1.216, 0.482, 4.791
+AddTrackRoller = -1.159, 0.425, -2.378
+
+AddCrawlerTrack = true, 0.40, 1.15, -0.22/3.92, -0.22/-1.70, 0.08/-2.63, 0.43/-2.82, 0.75/-2.67, 0.86/-2.31, 0.93/4.79, 0.75/5.15, 0.37/5.21, 0.06/4.98
+AddCrawlerTrack = true, 0.40, 1.15, -0.22/3.92, -0.22/-1.70, 0.08/-2.63, 0.43/-2.82, 0.75/-2.67, 0.86/-2.31, 0.93/4.79, 0.75/5.15, 0.37/5.21, 0.06/4.98
+AddCrawlerTrack = true, 0.40, -1.15, -0.22/3.92, -0.22/-1.70, 0.08/-2.63, 0.43/-2.82, 0.75/-2.67, 0.86/-2.31, 0.93/4.79, 0.75/5.15, 0.37/5.21, 0.06/4.98
+AddCrawlerTrack = true, 0.40, -1.15, -0.22/3.92, -0.22/-1.70, 0.08/-2.63, 0.43/-2.82, 0.75/-2.67, 0.86/-2.31, 0.93/4.79, 0.75/5.15, 0.37/5.21, 0.06/4.98
+
+
+
+
+
+
+
+AddFixedSearchLight = 1.473, 1.529, 4.896, 0x40FFEEAA, 0x00AA5500, 19.98, 5.00, -2.87, 8.54
+AddFixedSearchLight = 1.473, 1.529, 4.896, 0xFFFFEEAA, 0x00000000, 2.00, 0.50, -2.87, 8.54
+AddFixedSearchLight = -1.473, 1.529, 4.896, 0x40FFEEAA, 0x00AA5500, 19.98, 5.00, 2.87, 8.54
+AddFixedSearchLight = -1.473, 1.529, 4.896, 0xFFFFEEAA, 0x00000000, 2.00, 0.50, 2.87, 8.54
+
+
+
+;Movement
+
+
+MaxRotationPitch = 80
+
+
+MinRotationPitch = -80
+
+
+
+
+
+MobilityYaw = 0
+
+MobilityYawOnGround = 2.60
+
+
+StepHeight = 1
+
+
+MotionFactor = 0.94
+
+
+PivotTurnThrottle = 0.0
+
+
+OnGroundPitchFactor = 3.0
+
+
+OnGroundRollFactor = 2.0
+
+CameraRotationSpeed = 12.00
+
+ThirdPersonDist = 12
+
+WeightedCenterZ = 0.0
+SetWheelPos = 1.49, -0.24, 3.41, 3.92, 2.90, 1.88, 0.87, -0.15, -1.17, 2.40, 1.38, 0.36, -0.65, -1.67, 2.90, 3.92, 1.88, 0.87, -0.15, -1.17, 3.41, 2.40, 1.38, 0.36, -0.65, -1.67
+
+;Other
+
+
+AddSeat = 0.000, 1.000, 3.962, false
+
+AddGunnerSeat = 0.452, 2.100, -0.191, 0.452, 2.100, -0.191, true, -90, 90, true
+AddGunnerSeat = -0.452, 2.100, -0.191, -0.452, 2.100, -0.191, true, -90, 90, true
+AddGunnerSeat = -0.006, 2.106, -1.205, -0.006, 2.106, -1.205, true, -90, 90, true
+
+
+MaxHp = 450
+ArmorDamageFactor = 1.0
+
+
+
+EnableBack = true
+
+
+WeightType = tank
+
+
+DefaultFreeLook = true
+
+
+
+
+AddTurretWeapon = maus_128_ap, 0.000, 2.325, 1.367, 0.0, 0.0, true, 1, 0.00, -360.00, 360.00, -45.00, 7.00
+AddTurretWeapon = maus_128_he, 0.000, 2.325, 1.367, 0.0, 0.0, true, 1, 0.00, -360.00, 360.00, -45.00, 7.00
+AddTurretWeapon = maus_75_ap, 0.000, 2.325, 1.367, 0.0, 0.0, true, 1, 0.00, -360.00, 360.00, -45.00, 7.00
+AddTurretWeapon = maus_75_he, 0.000, 2.325, 1.367, 0.0, 0.0, true, 1, 0.00, -360.00, 360.00, -45.00, 7.00
+AddTurretWeapon = MG34_7.92_mg_a, 1.060, 2.572, 0.001, 0.0, 0.0, false, 2, 0.00, -360.00, 360.00, -90.00, 45.00
+AddTurretWeapon = MG34_7.92_mg_b, -1.060, 2.572, 0.001, 0.0, 0.0, false, 3, 0.00, -360.00, 360.00, -90.00, 45.00
+AddTurretWeapon = MG34_7.92_mg_c, -0.000, 2.432, -2.109, 0.0, 0.0, false, 4, 0.00, -360.00, 360.00, -90.00, 45.00
+
+
+
+CameraPosition = 0.000, 3.180, -0.005
+
+
+DamageFactor = 1.0
+
+
+
+
+
+
+MobDropOption = false
+
+
+FlareType = 0
+
+Float = false
+
+
+
+SubmergedDamageHeight = 2.00
+
+InventorySize = 27
+
+
+Regeneration = false
+
+
+Gravity = -0.1
+
+GravityInWater = -0.05
+
+ParticlesScale = 1.0
+
+
+EnableGunnerMode = true
+
+
+ConcurrentGunnerMode = true
+
+Speed = 0.25
+
+CanMoveOnGround = true
+
+
+CanRotOnGround = true
+
+ThrottleUpDown = 1.67
+
+ThrottleUpDownOnEntity = 1.0
+
+
+UAV = false
+
+
+SmallUAV = false
+
+
+
+OnGroundPitch = 0
+
+
+
+
+
+
+
+
+
+
+
+HideEntity = false 
+
+
+EntityWidth = 1.0
+
+EntityHeight = 1.0
+
+EntityPitch = 0.0
+
+EntityRoll = 0.0
+
+FuelSupplyRange = 0
+
+
+AmmoSupplyRange = 0
+
+
+
+BoundingBox = 0.000, 0.722, 2.509, 3.44, 1.77, 1.00
+BoundingBox = 0.000, 0.722, -0.934, 3.44, 1.77, 1.00
+BoundingBox = 0.000, 2.337, 0.366, 3.16, 1.29, 0.80
+BoundingBox = -0.445, 1.539, -3.044, 0.86, 0.74, 2.50
+BoundingBox = 0.449, 1.539, -3.044, 0.86, 0.74, 2.50
+BoundingBox = 1.200, 0.722, 4.859, 1.13, 1.77, 0.10
+BoundingBox = 0.000, 0.722, 4.859, 1.13, 1.77, 0.10
+BoundingBox = -1.200, 0.722, 4.859, 1.13, 1.77, 0.10
+
+
+MaxFuel = 2400
+
+FuelConsumption = 4.00
+
+Stealth = 0.0
+
+
+
+
+
+
+
+
+
+
+CanRide = true

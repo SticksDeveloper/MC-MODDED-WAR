@@ -1,0 +1,80 @@
+﻿DisplayName = 88mm AA-Gun Flak 18
+AddDisplayName = en_US, 88mm AA-Gun Flak 18
+AddDisplayName = de_DE, 88mm Flak 18
+MaxHp = 100
+Speed = 0.0
+ThrottleUpDown = 0.0
+MobilityYawOnGround = 0.0
+MinRotationPitch = -60
+MaxRotationPitch = 5
+MobilityRoll = 1
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+CameraPosition = 0.00, 2.00, 1.00
+HideEntity = false
+EnableNightVision = false
+CameraRotationSpeed = 30
+MaxFuel         = 0
+FuelConsumption = 0.0
+StepHeight = 0.5
+DefaultFreelook = true
+OnGroundPitchFactor = 1.0
+OnGroundRollFactor  = 1.0
+
+ThirdPersonDist = 8
+
+AddTexture = flak18tan
+
+
+SubmergedDamageHeight = 0
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+AddSeat = -0.82,  2.24, 0.018, true
+
+
+AddTrackRoller =  1.00, 0.2288, -1.0
+AddTrackRoller = -1.00, 0.2288, -1.0
+AddTrackRoller =  1.00, 0.2288,  1.0
+AddTrackRoller = -1.00, 0.2288,  1.0
+
+ArmorMinDamage = 9
+
+TrackRollerRot = 5
+
+MotionFactor = 0.0
+
+EnableBack = true
+
+Category = A.T
+
+HUD = ww2tank_hud, ww2tank_hud
+
+
+SetWheelPos =  1.00, -0.24, 1.00, -1.0
+
+
+WeightedCenterZ = 0.0
+
+AddPartWeapon = flak88_aa / flak88_he / flak88_ap, false, true, false, 0.00, 0.74, 0.00, 0
+AddPartWeaponChild = false, true, 0.00, 1.704, -0.7535, 0
+AddPartWeaponChild = false, true, 0.00, 1.704, -0.7535, 1.0
+
+AddTurretWeapon = flak88_aa, 0.00, 1.74, -0.82, 0.0, 0.0, true, 1, 0,-360,360, -85, 5, 1.0
+AddTurretWeapon = flak88_he, 0.00, 1.74, -0.82, 0.0, 0.0, true, 1, 0,-360,360, -85, 5, 1.0
+AddTurretWeapon = flak88_ap, 0.00, 1.74, -0.82, 0.0, 0.0, true, 1, 0,-360,360, -85, 5, 1.0
+TurretPosition = 0.00, 1.74, 0.00
+
+
+AddRecipe = " DI",  "IXI",  "IXI",  X, iron_block, D, dispenser, I, iron_ingot
+
+BoundingBox =  0.0, 0.032, 0.0,  1.296, 0.2976, 1.0
+BoundingBox =  0.966, 0.032, 0.0,  0.64, 0.225, 1.0
+BoundingBox =  -0.966, 0.032, 0.0,  0.64, 0.225, 1.0
+BoundingBox =  0.0, 0.032, 0.966,  0.64, 0.225, 1.0
+BoundingBox =  0.0, 0.032, -0.966,  0.64, 0.225, 1.0
+BoundingBox =  0.0, 1.0, 0.0,  2.0, 2.0, 1.0
+BoundingBox =  0.0, 1.01, 0.0,  0.9779, 0.651, 0.9

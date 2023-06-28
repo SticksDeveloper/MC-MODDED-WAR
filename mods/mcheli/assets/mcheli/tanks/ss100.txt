@@ -1,0 +1,79 @@
+﻿DisplayName = Hanomag SS100
+AddDisplayName = de_DE, Hanomag Straßen-Schnelltransporter 100
+
+MaxHp = 60
+SubmergedDamageHeight = 1
+DamageFactor = 1.0
+ArmorMinDamage = 3
+
+MaxFuel         = 500
+FuelConsumption = 0.5
+StepHeight = 1.0
+FlareType = 10
+
+Speed = 1.5
+ThrottleUpDown = 1.5
+MotionFactor = 0.9
+MobilityYawOnGround = 10.0
+PivotTurnThrottle = 0.01
+
+Sound = ss100engine
+MinRotationPitch = -45
+MaxRotationPitch = 45
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+Gravity = -0.1
+GravityInWater = -0.05
+
+CameraZoom = 2
+CameraPosition = 0.00, 3.0, 0.00
+CameraRotationSpeed = 40
+DefaultFreelook = true
+ThirdPersonDist = 5
+
+HideEntity = false
+EnableNightVision = false
+
+AddTexture = ss100tan
+WeightType = Car
+EnableBack = true
+Category = M.A
+
+HUD = ww2tank_hud
+EntityWidth = 0.9
+EntityHeight = 0.9
+
+WeightedCenterZ = 0.0
+
+AddSeat = 0.40, 0.50, -0.35
+AddGunnerSeat = -0.40, 0.70, -0.35
+AddGunnerSeat = 0.40, 0.70, -1.00
+AddGunnerSeat = -0.40, 0.70, -1.00
+
+AddPartWheel =  0.85, 0.151, 1.3815, 30
+AddPartWheel = -0.85, 0.151, 1.3815, 30
+AddPartWheel =  0.00, 0.151, -1.4673, 0
+AddPartSteeringWheel =  0.40, 1.2865, 0.2589, 0, -0.58, 1, -360
+
+SetWheelPos =  0.85, -0.24,  1.40, 0
+SetWheelPos = -0.85, -0.24,  1.40, 0
+SetWheelPos =  0.85, -0.24, -1.40, 0
+SetWheelPos = -0.85, -0.24, -1.40, 0
+
+AddPartCanopy = 0.781, 0.45, 0.226, 0, 1, 0, -80
+AddParthatch = -0.781, 0.45, 0.226, 0, 1, 0, 80
+
+AddRack = pak4341,  0.0, 0.0, -5.00,  0.5, -0.5, -5.00,  5.0, 100000, 0.0, -10.0
+AddRack = v2,       0.0, 0.0, -8.50,  0.5, -0.5, -8.50, 10.0, 100000, 0.0,   0.0
+AddRack = sfH18,    0.0, 0.0, -3.20,  0.5, -0.5, -4.00,  5.0, 100000, 0.0,  -5.0
+
+AddFixedSearchLight = 0.57,  0.75,  2.10,   0x20FFFFFF,   0x50FFFFC0,    25.0, 5.0,      0,   10
+AddFixedSearchLight = -0.57,  0.75,  2.10,   0x20FFFFFF,   0x50FFFFC0,    25.0, 5.0,      0,   10
+
+BoundingBox =  0.00, 0.20,  1.15,   2.30, 1.00,  1.00
+BoundingBox =  0.00, 0.20, -1.15,   2.30, 1.00,  1.00
+BoundingBox =  0.00, 1.325, -0.550,   1.80, 1.25,  0.90
+BoundingBox =  0.00, 1.075, 1.050,   1.45, 0.70,  1.10
+BoundingBox =  0.00, 1.200, -2.05,   1.20, 1.00,  0.90
+
+AddRecipe = " GI", "RII",  "IXI",  X, iron_block,  I, iron_ingot, R, redstone, G, glass_pane

@@ -1,0 +1,136 @@
+﻿DisplayName = Schwerer Gustav 800mm Railway Gun
+AddDisplayName = en_US, Schwerer Gustav German 800mm Railway Gun
+MaxHp = 6500
+ThrottleUpDown = 1.0
+Speed = 0.1
+MobilityYawOnGround = 2.5
+StepHeight = 2.5
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.85
+EnableNightVision = false
+CameraRotationSpeed = 5
+MaxFuel           = 12000
+FuelConsumption   = 2.0
+ThirdPersonDist = 20
+
+OnGroundPitchFactor = 4.0
+OnGroundRollFactor  = 4.8
+
+EnableBack = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+
+HUD = vehicle_wwii
+
+
+AddPartWheel =  -2.0636,  0.3601, -21.25 ,-20
+AddPartWheel =   2.0636,  0.3601,  21.25 ,20
+AddPartWheel =  -2.0636,  0.3601,  21.25 ,20
+AddPartWheel =   2.0636,  0.3601, 19.87 ,15
+AddPartWheel =  -2.0636,  0.3601, 19.87 ,15
+AddPartWheel =   2.0636,  0.3601, 18.49 ,15
+AddPartWheel =  -2.0636,  0.3601, 18.49 ,10
+AddPartWheel =   2.0636,  0.3601, 17.11 ,10
+AddPartWheel =  -2.0636,  0.3601, 17.11 ,10
+AddPartWheel =   2.0636,  0.3601, 15.73 ,10
+AddPartWheel =  -2.0636,  0.3601, 15.73 ,5
+AddPartWheel =   2.0636,  0.3601, 12.37 ,5
+AddPartWheel =  -2.0636,  0.3601, 12.37 ,5
+AddPartWheel =   2.0636,  0.3601, 10.99 ,5
+AddPartWheel =  -2.0636,  0.3601, 10.99 ,5
+AddPartWheel =   2.0636,  0.3601, 9.61 ,0
+AddPartWheel =  -2.0636,  0.3601, 9.61 ,0
+AddPartWheel =   2.0636,  0.3601, 8.23 ,0
+AddPartWheel =  -2.0636,  0.3601, 8.23 ,0
+AddPartWheel =   2.0636,  0.3601, 6.85 ,0
+AddPartWheel =  -2.0636,  0.3601, 6.85 ,0
+AddPartWheel =   2.0636,  0.3601, -6.85 ,0
+AddPartWheel =  -2.0636,  0.3601, -6.85 ,0
+AddPartWheel =   2.0636,  0.3601, -8.23 ,0
+AddPartWheel =  -2.0636,  0.3601, -8.23 ,0
+AddPartWheel =   2.0636,  0.3601, -9.61 ,0
+AddPartWheel =  -2.0636,  0.3601, -9.61 ,0
+AddPartWheel =   2.0636,  0.3601, -10.99 ,-5
+AddPartWheel =  -2.0636,  0.3601, -10.99 ,-5
+AddPartWheel =   2.0636,  0.3601, -12.37 ,-5
+AddPartWheel =  -2.0636,  0.3601, -12.37 ,-5
+AddPartWheel =   2.0636,  0.3601, -15.73 ,-5
+AddPartWheel =  -2.0636,  0.3601, -15.73 ,-10
+AddPartWheel =   2.0636,  0.3601, -17.11 ,-10
+AddPartWheel =  -2.0636,  0.3601, -17.11 ,-10
+AddPartWheel =   2.0636,  0.3601, -18.49 ,-10
+AddPartWheel =  -2.0636,  0.3601, -18.49 ,-15
+AddPartWheel =   2.0636,  0.3601, -19.87 ,-15
+AddPartWheel =  -2.0636,  0.3601, -19.87 ,-15
+AddPartWheel =   2.0636,  0.3601, -21.25 ,-20
+
+
+AddSeat = -2.60, 8.30, -5.00
+AddSeat =  1.50, 4.00 , -15.50
+AddSeat = -1.50, 4.00 , -15.50
+
+PivotTurnThrottle = 0.1
+
+AddPartSlideHatch = 0.00, -6.20, 0.00
+AddPartSlideHatch = 0.00,  6.20, 0.00
+AddPartSlideHatch = 0.00, -6.20, 0.00
+AddPartSlideHatch = 0.00, -6.00, 0.00
+AddPartSlideHatch = 0.00, -5.50, 0.00
+AddPartSlideHatch = 0.00, -5.00, 0.00
+AddPartSlideHatch = 0.00, -4.50, 0.00
+AddPartSlideHatch = 0.00, -4.00, 0.00
+AddPartSlideHatch = 0.00, -3.50, 0.00
+AddPartSlideHatch = 0.00, -3.00, 0.00
+AddPartSlideHatch = 0.00, -2.50, 0.00
+AddPartSlideHatch = 0.00, -2.00, 0.00
+AddPartSlideHatch = 0.00, -1.50, 0.00
+AddPartSlideHatch = 0.00, -1.00, 0.00
+AddPartSlideHatch = 0.00, -0.50, 0.00
+AddPartSlideHatch = 0.00, 6.20, 0.00
+AddPartSlideHatch = 0.00, 6.00, 0.00
+AddPartSlideHatch = 0.00, 5.50, 0.00
+AddPartSlideHatch = 0.00, 5.00, 0.00
+AddPartSlideHatch = 0.00, 4.50, 0.00
+AddPartSlideHatch = 0.00, 4.00, 0.00
+AddPartSlideHatch = 0.00, 3.50, 0.00
+AddPartSlideHatch = 0.00, 3.00, 0.00
+AddPartSlideHatch = 0.00, 2.50, 0.00
+AddPartSlideHatch = 0.00, 2.00, 0.00
+AddPartSlideHatch = 0.00, 1.50, 0.00
+AddPartSlideHatch = 0.00, 1.00, 0.00
+AddPartSlideHatch = 0.00, 0.50, 0.00
+
+;[WIP Reloading Animation]
+
+AddPartSlideHatch = 0.00, 0.00, 10.00
+				;10.0
+AddPartSlideHatch = 0.00,  0.00, 3.40
+				;3.40
+AddPartSlideHatch = 0.00,  0.00, 0.90
+				;0.90
+AddPartHatch = 0.00, 8.07 , -15.6 ,  1.0, 0.0, 0.0, 180
+AddPartHatch = 1.29, 4.59 , -15.79 , 0.0, 1.0, 0.0, -110
+
+
+AddWeapon = 800mm, 0.00, 8.58, 0.00, 0.0, 0.0, true, 1, 0,-1,1, -65, 5,-3
+AddWeapon = ap800mm, 0.00, 8.58, 0.00, 0.0, 0.0, true, 1, 0,-1,1, -65, 5,-3
+
+AddPartWeapon = 800mm / ap800mm, false, false, true, 0.00, 8.58, 0.00, -3
+AddPartWeapon = 800mm / ap800mm, false, false, true, 0.00, 8.58, 0.00, -0
+
+
+
+
+InventorySize = 81
+
+
+BoundingBox =  0.0, 1.5, -1.5,   2.6, 2.0,   1.10
+
+AddRecipe = "MOM",  "IOI",  "RPR",   P, piston, I, iron_block, R, redstone, O, obsidian, M, minecart

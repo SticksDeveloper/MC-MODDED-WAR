@@ -1,0 +1,82 @@
+﻿DisplayName = V2 on Meillerwagen
+AddDisplayName = en_US, V2 on Meillerwagen
+AddDisplayName = de_DE, V2 auf Meillerwagen
+
+MaxHp = 80
+Speed = 0.0
+ThrottleUpDown = 0.0
+MobilityYawOnGround = 0.0
+MinRotationPitch = -60
+MaxRotationPitch = 5
+MobilityRoll = 1
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraPosition = 3.00, 2.4, -8.00
+HideEntity = true
+EnableNightVision = false
+CameraRotationSpeed = 30
+MaxFuel         = 0
+FuelConsumption = 0.0
+StepHeight = 1.0
+DefaultFreelook = true
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+ThirdPersonDist = 12
+
+AddTexture = v2tan
+
+EnableGunnerMode = True
+SubmergedDamageHeight = 1
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+AddSeat = 0.0, 2.5, -3.5
+
+
+FixCameraPitch = true
+DisplayMortarDistance = true
+ArmorMinDamage = 5
+MotionFactor = 0.9
+
+EnableBack = true
+
+Category = M.A
+
+HUD = ww2tank_hud
+
+SetWheelPos =  1.50,  -0.34, 3.7473, 1.3753, -5.8635,
+
+WeightedCenterZ = 0.0
+
+AddWeapon = V2, 0.00, 0.7931, -8.0178, 0.0, 0.0, true, 1, 0, -10, 10, -90, 5, 0
+
+
+AddPartWeaponMissile = V2, false, false, true, 0, 1.0186, -6.51, 0
+
+AddPartWeapon = V2, false, false, true, 0, 1.0186, -6.51, 1, 0, 0, -90, 0
+
+
+AddPartWeaponbay = V2, 1.1256, 0.00, -6.5221, 0, 1, 0, 90
+AddPartWeaponbay = V2, -1.1256, 0.00, -6.5221, 0, 1, 0, -90
+
+
+AddPartSteeringWheel = 0.00, 0.85, 2.55, 0, 1, 0, 45
+AddPartWheel = 0.00, 0.2028, -5.8635, 0
+
+BoundingBox =  0.0, 0.7,  4.0,   2.2, 2.0, 1.0
+BoundingBox =  0.0, 0.7,  1.8,   2.2, 2.0, 1.0
+BoundingBox =  0.0, 0.7, -0.4,   2.2, 2.0, 1.0
+BoundingBox =  0.0, 0.7, -2.6,   2.2, 2.0, 1.0
+BoundingBox =  0.0, 0.7, -4.9,   2.4, 2.0, 1.0
+BoundingBox =  0.0, 2.2,  4.0,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.4,  2.5,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.4,  1.0,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.4, -0.5,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.4, -2.0,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.4, -3.5,   1.5, 1.5, 2.0
+BoundingBox =  0.0, 2.7, -5.5,   2.5, 2.0, 2.0
+
+AddRecipe = "III",  "XRX",  "IXI",  X, iron_block,  I, iron_ingot, R, redstone_block

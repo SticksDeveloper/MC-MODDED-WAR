@@ -1,0 +1,32 @@
+DisplayName = Aggregat 4 V2 Missile 2
+Type = rocket
+Power = 1000
+Acceleration = 20
+Explosion = 25
+ExplosionBlock = 20
+ExplosionInWater = 15
+Flaming = true
+Sight = MissileSight
+Delay = 30
+Sound = missile_launch
+ModelBullet = A4
+Gravity = -0.08
+DisableSmoke = false
+ModeNum = 1
+Radius = 90
+RigidityTime = 0
+
+TrajectoryParticle = largesmoke
+group = maingun
+
+Accuracy = 1.5
+
+EnableGunnerMode = True
+
+ReloadTime = 1200
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 8, iron_ingot
+Item = 4, tnt
+Item = 8, redstone
